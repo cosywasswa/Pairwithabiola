@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #main-doc{
 display: flex;
 flex-direction: column;
@@ -26,4 +27,25 @@ font-weight: 300;
 
 .head-text h2{
 font-weight: 400;
+=======
+li{
+ color:azure;
+ border:3px solid plum;
+ position:relative;  
+ width:10%; 
+}
+a{
+    display:block;
+    cursor:pointer;
+    padding: 5px 5px;
+}
+
+.nav-link{
+    color:gray;
+}
+.lists{
+height: 500px; 
+overflow-y: scroll;
+width:auto;
+>>>>>>> d1dd5f4a2b9ff06e71528ae6775d6dbf29f3e57c
 }
