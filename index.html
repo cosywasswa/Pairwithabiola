@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
 
 <head>
   <meta charset="UTF-8">
@@ -11,9 +10,34 @@
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+  <nav id="navbar">
+    <div class="lists">
+      <header>
+        <h1>Js Documentation</h1>
+      </header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+        <li><a class="nav-link" href="#Javascript_and_java">Javascript_and_java</a></li>
+        <li><a class="nav-link" href="#Hello world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Declaring Variables">Declaring Variables</a></li>
+        <li><a class="nav-link" href="#Variable scope">Variable scope</a></li>
+        <li><a class="nav-link" href="#Global variables">Global variables</a></li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li><a class="nav-link" href="#if..else_statement">if..else statement</a></li>
+        <li><a class="nav-link" href="#while_statement">while statement</a></li>
+        <li><a class="nav-link" href="#functional_declarations">functional declarations</a></li>
+        <li><a class="nav-link" href="#reference">reference</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
   <main id="main-doc">
     <section class="main-section" id="intro">
-      <header class="head-text">
+      <header class="head-text" id="#Introduction">
         <h2> Introduction</h2>
       </header>
       <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language.
@@ -38,7 +62,7 @@
       </ul>
     </section>
     <section class="main-section" id="what_you">
-      <header class="head-text">
+      <header class="head-text" id="#What_you_should_already_know">
         <h2>What you should already know </h2>
       </header>
       <p>This guide assumes you have the following basic background:</p>
@@ -56,7 +80,7 @@
       </ul>
     </section>
     <section class="main-section" id="Javascript_and_java">
-      <header class="head-text">
+      <header class="head-text" id="Javascript_and_java">
         <h2> JavaScript and Java </h2>
       </header>
       <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
@@ -78,7 +102,7 @@
       </p>
     </section>
     <section class="main-section" id="started">
-      <header class="head-text">
+      <header class="head-text" id="Hello world">
         <h2>Hello world</h2>
       </header>
       <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
@@ -90,7 +114,7 @@
       </p>
     </section>
     <section class="main-section" id="variables">
-      <header class="head-text">
+      <header class="head-text" id="Variables">
         <h2> Variables</h2>
       </header>
       <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers,
@@ -108,7 +132,7 @@
       </p>
     </section>
     <section class="main-section" id="declare">
-      <header class="head-text">
+      <header class="head-text" id="Declaring Variables">
         <h2>Declaring variables </h2>
       </header>
       <p>You can declare a variable in three ways:</p>
@@ -126,7 +150,7 @@
       <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
     </section>
     <section class="main-section" id="function">
-      <header class="head-text">
+      <header class="head-text" id="Variable scope">
         <h2>Variable scope</h2>
       </header>
       <p>When you declare a variable outside of any function, it is called a global variable, because it is available to
@@ -147,7 +171,7 @@
         not defined</code>
     </section>
     <section class="main-section" id="global_variable">
-      <header class="head-text">
+      <header class="head-text" id="Global_variables">
         <h2> Global variables </h2>
       </header>
       <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you
@@ -159,7 +183,7 @@
       </p>
     </section>
     <section class="main-section" id="constants">
-      <header class="head-text">
+      <header class="head-text" id="Constants">
         <h2>Constants</h2>
       </header>
       <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the
@@ -188,7 +212,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
   "otherValue";</code>
     </section>
     <section class="main-section" id="main">
-      <header class="head-text">
+      <header class="head-text" id="Data_types">
         <h2> Data types </h2>
       </header>
       <p>The latest ECMAScript standard defines seven data types:</p>
@@ -212,7 +236,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
         as named containers for values, and functions as procedures that your application can perform.</p>
     </section>
     <section class="main-section" id="if_statement">
-      <header class="head-text">
+      <header class="head-text" id="if..else_statement">
         <h2>if...else statement </h2>
       </header>
       <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to
@@ -251,7 +275,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
       <code>if ((x = y)) { /* statements here */ }</code>
     </section>
     <section class="main-section" id="a_while">
-      <header class="head-text">
+      <header class="head-text" id="while_statement">
         <h2>while statement</h2>
       </header>
       <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement
@@ -290,8 +314,8 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
       <p>
         After completing the third pass, the condition n < 3 is no longer true, so the loop terminates </p>
     </section>
-    <section class="main-section" id="function_difinition">
-      <header class="head-text">
+    <section class="main-section">
+      <header class="head-text" id="functional_declarations">
         <h2>Function declarations</h2>
       </header>
       <p>A function definition (also called a function declaration, or function statement) consists of the function
@@ -320,7 +344,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
       </p>
     </section>
     <section class="main-section" id="documentation">
-      <header class="head-text">
+      <header class="head-text" id="reference">
         <h2>Reference</h2>
       </header>
       <p>All the documentation in this page is taken from <a href="" target="_blank">MDN</a></p>
@@ -332,42 +356,3 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
 </body>
 
 </html>
-=======
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
- 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    
-    <script  src="js/index.js"></script>
-
-    <nav id="navbar">
-    <div id="lists">
-      <header><h1>Js Documentation</h1></header>
-      <ul>
-    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-    <li><a class="nav-link" href="#What you should already know">What you should already know</a></li>
-    <li><a class="nav-link" href="Javascript_and_java">Javascript_and_java</a></li>
-    <li><a class="nav-link" href="#Hello world">Hello world</a></li>
-    <li><a class="nav-link" href="#Variables">Variables</a></li>
-    <li><a class="nav-link" href="#Declaring Variables">Declaring Variables</a></li>
-    <li><a class="nav-link" href="#Variable scope">Variable scope</a></li>
-    <li><a class="nav-link" href="#Global variables">Global variables</a></li>
-    <li><a class="nav-link" href="#Constants">Constants</a></li>
-    <li><a class="nav-link" href="#Data types">Data types</a></li>
-    <li><a class="nav-link" href="#if..else statement">if..else statement</a></li>
-    <li><a class="nav-link" href="#while statement">while statement</a></li>
-    <li><a class="nav-link" href="#functional declarations">functional declarations</a></li>
-    <li><a class="nav-link" href="#reference">reference</a></li>
-    
-    
-      </ul>
-    </div>
-    </nav>
-  </body>
-</html>
->>>>>>> 01eb714bab0ce4215ebe3abf600af9e15a576e71
